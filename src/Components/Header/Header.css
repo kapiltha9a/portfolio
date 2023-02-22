@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Arsenica;
+    src: url('../../assets/fonts/arsenicatrial-regular-webfont.woff2');
+}
+
+@font-face {
+    font-family: Arimo;
+    src: url('https://fonts.googleapis.com/css2?family=Arimo&display=swap')
+}
+
+@font-face {
+    font-family: 'TT Commons Pro';
+    src: url('../../assets/fonts/tt_commons_regular-webfont.woff2');
+}
+
+.header-name {
+    font-family: Arsenica;
+    font-size: 5rem;
+}
+
+.header-title {
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-top: 120px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header-profile-image {
+    z-index: -5;
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    object-position: 100% 100%;
+    width: 230px;
+    height: 275px;
+    margin-top: 110px;
+    border-radius: 2.5px;
+    rotate: -4deg;
+}
+
+/* .background-profile-image {
+    background-image: url('./../../images/profile-image.jpg');
+    /* width: 250px; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+} */
+
+.header-p {
+    font-family: 'TT Commons Pro';
+    font-size: 2rem;
+}

@@ -1,0 +1,35 @@
+.aboutContainer {
+    width: 80vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .aboutMeHeader {
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.75rem;
+    width: 400px;
+    font-weight: lighter;
+    text-align: left;
+} */
+
+.aboutMeP {
+    font-family: 'TT Commons Pro';
+    font-size: 1.4rem;
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    left: 150px;
+}
+
+.aboutRow {
+    /* height: 50px; */
+    position: relative;
+}
+
+.aboutRow img {
+    width: 200px;
+    /* position: absolute;
+    left: 800px; */
+}
